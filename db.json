@@ -1,44 +1,31 @@
-[  
-   {  
-      "id":1509035177,
-      "agentId":"12437875",
-      "refundReshipOrderNumber":"15367",
-      "origOrderNumber":"9641881",
-      "supervisorId":"1509035177000",
-      "supervisorCode":"1509035177000",
-      "actionId":1509035177,
-      "actionIdSent":1,
-      "userId":"12",
-      "userFirstName":"12",
-      "userLastName":"san",
-      "billingAddressId":"che",
-      "shippingAddressId":"che",
-      "totalItems":2,
-      "redundTotal":2.0,
-      "createDate":"20June",
-      "isTestOrder":true,
-      "shippingTotal":100.0,
-      "storeSite":"sample"
-   },
-   {  
-      "id":1509035189,
-      "agentId":"12437875",
-      "refundReshipOrderNumber":"15367",
-      "origOrderNumber":"9641881",
-      "supervisorId":"1509035177000",
-      "supervisorCode":"1509035177000",
-      "actionId":1509035177,
-      "actionIdSent":1,
-      "userId":"12",
-      "userFirstName":"12",
-      "userLastName":"san",
-      "billingAddressId":"che",
-      "shippingAddressId":"che",
-      "totalItems":2,
-      "redundTotal":2.0,
-      "createDate":"20June",
-      "isTestOrder":true,
-      "shippingTotal":100.0,
-      "storeSite":"sample"
-   }
-]
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
